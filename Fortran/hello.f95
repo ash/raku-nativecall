@@ -1,3 +1,7 @@
-function hello()
+subroutine hello
     print *, "Hello, World!"
-end function hello
+end subroutine hello
+
+program test
+    call hello
+end program test
